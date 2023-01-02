@@ -1,0 +1,42 @@
+.blogs{
+    box-sizing: border-box;
+      padding: 7px;
+      margin: 0px;
+      justify-content: center;
+      display: flex;
+  }
+
+ 
+
+  .ha3{
+    margin: 3px;
+  }
+
+  .pa3{
+    padding: 5px;
+  }
+
+  .main {
+    margin-top: 20px;
+  }
+
+  .btn{
+    color: white;
+    background: black;
+    padding: 7px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+
+  /* cart 2 */
+
+  @media only screen and (max-width: 600px) {
+.blogitem{ 
+   background: rgba(216, 234, 242, 0.43);
+  box-shadow: -6px 10px 3px rgba(0, 0, 0, 0.25);
+  padding-top: 15px;
+    margin-top: 24px;
+}
+  }
