@@ -9,7 +9,7 @@ const Blog = (props) => {
   const [count, setCount] = useState(2)
 
   const fetchData = async () => {
-      let d = await fetch(`http://localhost:3000/api/blogs/?count=${count+5}`)
+      let d = await fetch(`http://localhost:3000/api/blogs/?count=${count+2}`)
       setCount(count + 2)
       let data = await d.json()
     setBlogs(data)
@@ -51,7 +51,7 @@ export async function getStaticProps(context) {
   let allCount = data.length;
   let myfile;
   let allBlogs = [];
-  for (let index = 0; index < 5; index++) {
+  for (let index = 0; index < 2; index++) {
    const item = data[index];
    
    myfile = await  fs.promises.readFile(('blogdata/' + item), 'utf-8')
