@@ -280,21 +280,6 @@
   }
 }
 
-.mainNav ul{
-display: flex;
-}
-
-.mainNav ul li{
-  margin: 0 24px;
-  list-style: none;
-  font-weight: bold;
-}
-
-.mainNav ul{
-  justify-content: center;
-  margin-top: 50px;
-}
-
 .blogs{
   box-sizing: border-box;
     padding: 7px;
@@ -321,7 +306,7 @@ display: flex;
 }
 
 .imageWrap{
-  padding-top: 30px;
+  padding-top: 8px;
 }
 
 .btn{
@@ -349,7 +334,7 @@ display: flex;
     padding: 2rem;
     min-height: 56vh;
     justify-content: flex-start;
-    padding-top: 0.8rem;
+    padding-top: 3rem;
   }
 .description{
   font-size: 0.9rem;

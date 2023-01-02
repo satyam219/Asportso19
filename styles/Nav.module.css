@@ -1,3 +1,32 @@
+.mainNav1 ul{
+    display: flex;
+    }
+    
+    .mainNav1 ul li{
+      margin: 0 24px;
+      list-style: none;
+      font-weight: bold;
+    }
+    
+    .mainNav1 ul{
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    .title{
+        justify-content: center;
+        display: flex;
+        margin-top: 3rem;
+        margin-left: 19px ;
+    }
+
+    .image{
+        display: none;
+    }
+
+    .image1{
+        display: none;
+    }
 @media only screen and (max-width: 600px) {
 /* Tiger */
 .mainNav1{
@@ -26,9 +55,8 @@ border-radius: 200px;
 .title{
 width: 130px;
 height: 21px;
-padding: 84px;
+margin-left: 80px;
 display: flex;
-padding-top: 50px;
 font-family: 'Inconsolata';
 font-style: normal;
 font-weight: 900;
@@ -55,7 +83,7 @@ width: 48px;
 height: 48px;
 justify-content: center;
     display: flex;
-    margin-top: -93px;
+    margin-top: -27px;
     margin-left: 23px;
 
 /* Inside auto layout */
@@ -71,12 +99,16 @@ flex-grow: 0;
 }
 
 .image1{
+    display: flex;
     float: right;
     height: 38px;
     width: 38px;
-    margin: -37px;
     margin-right: 44px;
+    margin-top: -44px;
 }
 
+.mainNav1 ul{
+    display: none;
+    }
    
  }
