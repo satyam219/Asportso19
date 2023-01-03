@@ -32,22 +32,20 @@
 .mainNav1{
 
 /* Auto layout */
-
+flex-wrap: nowrap;
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: flex-start;
 padding: 4px 0px;
 gap: 62px;
-
-position: absolute;
-width: 369px;
+margin-top: 24px;
 height: 80px;
 left: 7px;
 top: 23px;
 background: #5c58582e;
 border: 6px solid #e9e5e5ab;
-box-shadow: inset -12px -13px 2px -2px rgba(0, 0, 0, 0.25);
+box-shadow: inset -12px -13px 2px -2px rgb(0 0 0 / 25%);
 border-radius: 200px;
 }
 
@@ -62,6 +60,7 @@ font-style: normal;
 font-weight: 900;
 font-size: 20px;
 line-height: 21px;
+margin-top: -3rem;
 /* identical to box height */
 
 
@@ -79,18 +78,16 @@ flex-grow: 0;
 /* Soccer Player */
 .image{
     
-width: 48px;
-height: 48px;
-justify-content: center;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
     display: flex;
-    margin-top: -27px;
+    margin-top: -37px;
     margin-left: 23px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
 }
 
 .lin{
@@ -104,7 +101,7 @@ flex-grow: 0;
     height: 38px;
     width: 38px;
     margin-right: 44px;
-    margin-top: -44px;
+    margin-top: -38px;
 }
 
 .mainNav1 ul{

@@ -353,9 +353,11 @@
 }
 .blogItem{
   background: rgba(216, 234, 242, 0.43);
-  box-shadow: -6px 10px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: -6px 10px 3px rgb(0 0 0 / 25%);
   padding-top: 15px;
-    margin-top: 24px;
+  padding-left: 8px;
+  padding-right: 3px;
+  margin-top: 24px;
   }
 }
 
