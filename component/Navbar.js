@@ -17,7 +17,6 @@ return (
     <h1 className={styles.title}>
       <span className='mySpan'>Asportsomania</span>
     </h1>
-    <img className={styles.image} src="soccer.png" alt="" />
   </>
 )
  }
