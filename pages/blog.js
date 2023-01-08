@@ -38,6 +38,10 @@ const Blog = (props) => {
       <span className={styles.cat}>{blogitem.catogary}</span>
        <span className={styles.dat}>{blogitem.date}</span>
       <hr className={styles.bor}/>
+      <div className={styles.i}>
+        <img src={blogitem.icon} />
+        <br/>
+      </div>
       <h3 className={styles.ha3}>{blogitem.title}</h3></Link>
       <p className={styles.pa3}>{blogitem.metadesc.substr(0, 140)}</p>
       <Link href={`/blogpost/${blogitem.slug}`}><button className={styles.btn}>Read more</button></Link>
