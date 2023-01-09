@@ -1,4 +1,4 @@
 module.exports = {
-    siteUrl : "https://www.asportsomania.com",
+    siteUrl : "https://asportsomania.com",
     generateRobotsTxt: true,
 };

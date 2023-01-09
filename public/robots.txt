@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.asportsomania.com
+Host: https://asportsomania.com
 
 # Sitemaps
-Sitemap: https://www.asportsomania.com/sitemap.xml
+Sitemap: https://asportsomania.com/sitemap.xml
