@@ -1,6 +1,4 @@
-const siteUrl = "https://www.asportsomania.com";
-
 module.exports = {
-    siteUrl,
+    siteUrl : "https://www.asportsomania.com",
     generateRobotsTxt: true,
 };
