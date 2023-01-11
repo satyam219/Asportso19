@@ -22,6 +22,7 @@
 
   .blogs h3{
     margin: 5px;
+    color: rgb(97, 2, 2);
   }
 
   .blogs p{
@@ -33,6 +34,13 @@
   .para{
     padding: 20px;
     letter-spacing: 1.5px;
+  }
+
+
+  .blogs ul{
+    padding-left: 59px;
+    padding-bottom: 7px;
+    padding-top: 7px;
   }
   @media only screen and (max-width: 600px) {
     .container{
@@ -56,5 +64,15 @@
    }
    .blogs img{
     padding: 20px;
+   }
+   .blogs hr{
+    width: 510px;
+    padding: 4px;
+   }
+  .blogs span {
+    font-size: 25px;
+    padding: 63px;
+    padding-left: 62px;
+    font-style: italic;
    }
  }
